@@ -27,3 +27,11 @@
 
 2. Далее выполнить скрипт:
 > python get_log_data.py
+
+---
+Дополнительно:
+
+> python -m pip install mysql-connector-python
+
+> export PYTHONPATH=/usr/local/lib/python3/dist-packages/:$PYTHONPATH \
+> export PYTHONPATH=/usr/lib/python3/dist-packages/:$PYTHONPATH
